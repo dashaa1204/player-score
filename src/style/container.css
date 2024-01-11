@@ -3,4 +3,11 @@
   height: 533px;
   border: 1px solid black;
   border-radius: 24px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 32px;
 }

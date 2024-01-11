@@ -1,0 +1,13 @@
+.titleCont {
+  display: flex;
+  align-items: center;
+}
+
+.titleCont p {
+  width: 426px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+}
