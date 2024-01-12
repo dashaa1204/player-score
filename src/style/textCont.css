@@ -1,6 +1,4 @@
-.smallCont {
-  width: 466px;
-  height: 333px;
+.textCont {
   display: flex;
   flex-direction: column;
   gap: 24px;

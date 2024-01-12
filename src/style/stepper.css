@@ -1,0 +1,12 @@
+.stepper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: #f2f2f2;
+  border-radius: 48px;
+  width: 128px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 600;
+}
