@@ -19,8 +19,19 @@ export default function App() {
     { name: "player3", score: player3Score, id: 2 },
   ];
   const [scores, setScores] = useState(players);
-  players.sort((a, b) => {
+
+  function sort() {
+    scores.sort((a, b) => {
+      return b.score - a.score;
+    });
     const updatedPlayers = [...scores];
+    updatedPlayers.map((player) => {
+      return (player.score = 0);
+    });
+    setScores(updatedPlayers);
+  }
+
+  scores.sort((a, b) => {
     return b.score - a.score;
   });
 
